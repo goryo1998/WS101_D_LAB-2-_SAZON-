@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #444;
+}
+
+.resume-container {
+    width: 8.5in;
+    height: 11in;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    
+    color: #000000;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    
+}
+
+.name {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.title {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    background-color: #000;
+    color: #fff;
+    margin-left: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    margin-top: 10px; 
+    clip-path: polygon(
+    50% 0%, 93% 25%, 93% 75%, 
+    50% 100%, 7% 75%, 7% 25%
+  );
+}
+
+
+.contact-portfolio-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+    padding: 30px 40px;
+    
+    border-bottom: 5px rgb(0, 0, 0) solid;
+
+}
+
+
+
+.contact-info, .portfolio-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-info {
+    border-right: 1px solid #444;
+    padding-right: 20px;
+}
+
+.portfolio-info {
+    padding-left: 20px;
+}
+
+.contact-info h2, .portfolio-info h2 {
+    margin: 0 0 10px;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.contact-item, .portfolio-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-item i, .portfolio-item i {
+    color: #000000;
+    font-size: 1em;
+}
+
+.contact-item p, .portfolio-item p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.main-content {
+    display: flex;
+    flex-grow: 1;
+}
+
+.left-column {
+    background-color: #f8f8f8;
+    width: 35%;
+    padding: 20px 30px;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.right-column {
+    flex-grow: 1;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: white;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #333;
+    font-size: 1.2em;
+    
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.experience-item, .education-item {
+    margin-bottom: 15px;
+}
+
+.experience-item .role, .education-item .degree {
+    font-weight: 700;
+    margin: 0;
+}
+
+.experience-item .date, .education-item .date {
+    font-size: 0.9em;
+    color: #777;
+    margin: 5px 0 0;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.skills ul li {
+    margin-bottom: 5px;
+}
+
+.detail-item {
+    margin-bottom: 20px;
+}
+
+.detail-item h3 {
+    margin: 0 0 5px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.detail-item p {
+    margin: 0;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.awards-section {
+    margin-top: 20px;
+}
+
+.award-item {
+    margin-bottom: 15px;
+}
+
+.award-item h3 {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.award-item p {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+}
